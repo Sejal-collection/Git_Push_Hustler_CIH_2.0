@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Uploader for AI Screening</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background-animation"></div> <div class="container">
+        <h1>Upload Your Resume</h1>
+        <p>Our AI will help screen your resume for suitable job opportunities.</p>
+
+        <form action="/upload-resume" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="resumeFile">Select your resume (PDF or DOCX):</label>
+                <input type="file" id="resumeFile" name="resumeFile" accept=".pdf,.docx" required>
+            </div>
+            <button type="submit">Upload Resume</button>
+        </form>
+
+        <div id="uploadStatus"></div>
+    </div>
+</body>
+</html>
