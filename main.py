@@ -1,4 +1,4 @@
-# main.py
+
 # Backend for the AI Job Screening application.
 # To run:
 # 1. Install dependencies: pip install Flask Flask-Cors
