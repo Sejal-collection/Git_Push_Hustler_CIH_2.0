@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    
     // --- Simple Background Animation ---
     const backgroundAnimationDiv = document.querySelector('.background-animation');
     let currentOpacity = 0.5;
