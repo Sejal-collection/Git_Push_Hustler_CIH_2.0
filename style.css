@@ -34,6 +34,7 @@ body {
     background-position: center; /* Center the image */
     background-blend-mode: overlay; /* Blend the image with the subtle gradient */
 
+    
     /* Opacity will be animated by JS, but this sets the base */
     opacity: 0.6; /* Base opacity for the combined background */
 
